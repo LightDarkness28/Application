@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<ScrollPane prefHeight="1324.0" prefWidth="603.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.application.SceneController">
+   <content>
+      <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1339.0" prefWidth="600.0" style="-fx-background-color: #adadad;">
+         <children>
+            <Separator layoutX="142.0" layoutY="-10.0" orientation="VERTICAL" prefHeight="425.0" prefWidth="17.0" />
+            <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#switchToMainFrame" text="Главная страница" />
+            <Button layoutX="15.0" layoutY="56.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="114.0" text="Обучение" />
+            <Button layoutX="14.0" layoutY="95.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="114.0" text="Задания" />
+            <Button layoutX="14.0" layoutY="134.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="114.0" text="Справка" />
+            <Button layoutX="14.0" layoutY="175.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="114.0" text="Настройки" />
+            <Label layoutX="300.0" layoutY="29.0" text="Present Simple">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="159.0" layoutY="86.0" text="I, you, we, they" />
+            <Label layoutX="159.0" layoutY="166.0" text="he, she, it" />
+            <Label layoutX="287.0" layoutY="86.0" text="глагол в первой форме (просто убираем частицу to" />
+            <Label layoutX="287.0" layoutY="99.0" text="у инфинитива)." />
+            <Label layoutX="286.0" layoutY="111.0" text="Work, eat, sleep" />
+            <Label layoutX="286.0" layoutY="166.0" text="глагол в первой форме + окончание -s/-es" />
+            <Label layoutX="287.0" layoutY="179.0" text="Works, eats, sleep" />
+            <Label layoutX="166.0" layoutY="349.0" text="Единственное число" />
+            <Label layoutX="430.0" layoutY="367.0" text="we are" />
+            <Label layoutX="179.0" layoutY="367.0" text="I am" />
+            <Label layoutX="385.0" layoutY="349.0" text="Множественное число" />
+            <Label layoutX="170.0" layoutY="321.0" text="Mary (she) works from home." />
+            <Label layoutX="167.0" layoutY="303.0" text="Bob (he) eats fish. — Боб ест рыбу." />
+            <Label layoutX="178.0" layoutY="388.0" text="you are" />
+            <Label layoutX="177.0" layoutY="406.0" text="he, she, it is" />
+            <Label layoutX="428.0" layoutY="388.0" text="you are" />
+            <Label layoutX="426.0" layoutY="406.0" text="they are" />
+            <Label layoutX="172.0" layoutY="570.0" text="Children (they) are tired. — Дети устали. " />
+            <Label layoutX="172.0" layoutY="495.0" text="The chair (it) is green. — Стул зеленый. " />
+            <Label layoutX="172.0" layoutY="528.0" text="We are hungry. — Мы голодные. " />
+            <Label layoutX="172.0" layoutY="463.0" text="You are beautiful. — Ты красивый. " />
+            <Label layoutX="172.0" layoutY="431.0" text="I am 90 years old. — Мне 90 лет. " />
+            <Label layoutX="169.0" layoutY="631.0" text="I, you, we, they" />
+            <Label layoutX="173.0" layoutY="709.0" text="he, she, it" />
+            <Label layoutX="262.0" layoutY="613.0" text="Глагол to do:" />
+            <Label layoutX="290.0" layoutY="629.0" text="do" />
+            <Label layoutX="287.0" layoutY="709.0" text="does" />
+            <Label layoutX="390.0" layoutY="613.0" text="Глагол to have:" />
+            <Label layoutX="418.0" layoutY="631.0" text="have" />
+            <Label layoutX="422.0" layoutY="709.0" text="has" />
+            <Label layoutX="134.0" layoutY="765.0" text="Students (they) do their homework every day. — Студенты делают домашку каждый день. " />
+            <Label layoutX="134.0" layoutY="795.0" text="Bob (he) does his homework every Friday. — Боб делает домашку каждую пятницу.  " />
+            <Label layoutX="134.0" layoutY="812.0" text="Students (they) have excellent results. — У студентов прекрасные результаты. " />
+            <Label layoutX="135.0" layoutY="827.0" text="Bob (he) has the worst result. — У Боба самый худший результат. " />
+            <Label layoutX="84.0" layoutY="952.0" text="или местоимение" />
+            <Label layoutX="84.0" layoutY="1007.0" text="students (they)" />
+            <Label layoutX="84.0" layoutY="899.0" text="Подлежажщее: " />
+            <Label layoutX="84.0" layoutY="923.0" text="существительное" />
+            <Label layoutX="84.0" layoutY="982.0" text="I, you, we, he, she, it, they" />
+            <Label layoutX="84.0" layoutY="1034.0" text="my family and I (we)" />
+            <Label layoutX="84.0" layoutY="1068.0" text="he, she, it" />
+            <Label layoutX="84.0" layoutY="1103.0" text="Bob(he)" />
+            <Label layoutX="84.0" layoutY="1131.0" text="Mary(she)" />
+            <Label layoutX="84.0" layoutY="1161.0" text="dog(it)" />
+            <Label layoutX="167.0" layoutY="214.0" text="Новичкам в Present Simple сложнее всего дается окончание -s/-es у глаголов. " />
+            <Label layoutX="165.0" layoutY="231.0" text="Это окончание прибавляется к глаголу, если подлежащее в предложении — " />
+            <Label layoutX="162.0" layoutY="255.0" text=" в единственном числе и третьем лице (he, she, it).  " />
+            <Label layoutX="260.0" layoutY="899.0" text="Вспомогательный глагол" />
+            <Label layoutX="440.0" layoutY="899.0" text="Сказуемое:" />
+            <Label layoutX="253.0" layoutY="982.0" text="Подлежажщее: " />
+            <Label layoutX="253.0" layoutY="1076.0" text="does not (doesn't)" />
+            <Label layoutX="421.0" layoutY="1068.0" text="глагол в первой форме" />
+            <Label layoutX="419.0" layoutY="1094.0" text="jump, play, sit" />
+            <Label layoutX="421.0" layoutY="982.0" text="глагол в первой форме" />
+            <Label layoutX="419.0" layoutY="1007.0" text="jump, play, sit" />
+            <Label layoutX="440.0" layoutY="914.0" text="глагол" />
+            <Label layoutX="259.0" layoutY="914.0" text="глагол + частица not" />
+         </children>
+      </AnchorPane>
+   </content>
+</ScrollPane>

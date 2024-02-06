@@ -1,0 +1,707 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="2821.0" prefWidth="609.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.application.SceneController">
+   <center>
+      <VBox focusTraversable="true" prefHeight="3000.0" prefWidth="490.0" style="-fx-background-color: #0B0C10; -fx-border-color: #1F2833;">
+         <padding>
+            <Insets left="3.0" />
+         </padding>
+         <children>
+            <ScrollPane prefHeight="800.0" prefWidth="485.0" style="-fx-background-color: #0B0C10;">
+              <content>
+                <AnchorPane prefHeight="3000.0" prefWidth="1224.0" style="-fx-background-color: #0B0C10;">
+                     <children>
+                        <Label alignment="CENTER" contentDisplay="CENTER" layoutX="493.0" layoutY="15.0" text="Present Simple" textAlignment="CENTER" textFill="#45a29e">
+                           <font>
+                              <Font size="22.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="190.0" text="английском языке для описания действий." textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="20.0" layoutY="50.0" text="Present Simple: правила и примеры. Что такое Present Simple и когда употребляется." textFill="#45a29e">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="20.0" layoutY="90.0" text="Простое время в английском языке — это способ рассказать собеседнику о своих привычках и предпочтениях, о том, что мы умеем делать или " textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="105.0" text="делаем каждый день. Это одно из самых часто встречающихся времен в повседневной речи." textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="20.0" layoutY="140.0" text="Что такое Present Simple?" textFill="#45a29e">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="20.0" layoutY="175.0" text="Это простое настоящее время, обозначающее действие в самом широком смысле этого слова. Одна из самых распространенных и простых форм в" textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="20.0" layoutY="205.0" text="Действия могут быть связаны с привычками, хобби, ежедневным событием вроде подъема по утрам или чем-то, что случается регулярно." textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="20.0" layoutY="240.0" text="Как образуется Present Simple?" textFill="#45a29e">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="20.0" layoutY="275.0" text="Нет ничего проще, чем поставить глагол в форму Present Simple. Для этого нужно убрать у глагола в инфинитиве частицу «to» и поставить глагол после" textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="290.0" text="подлежащего. Это и есть основное правило Present Simple ." textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="20.0" layoutY="325.0" text="Утверждение:" textFill="#45a29e" underline="true">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="340.0" text="I / We / You / They + V" textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="355.0" text="She / He / It + V + s (es)" textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="370.0" text="I go to work every day — Я хожу на работу каждый день." textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="385.0" text="They usually play tennis every weekend — Они обычно играют в теннис каждые выходные." textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="400.0" text="She brings me coffee every morning — Она приносит мне кофе каждое утро." textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="415.0" text="It snows in winter — Зимой идет снег." textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="20.0" layoutY="430.0" text="ВАЖНО: В Present Simple форма глагола практически всегда совпадает с изначальной. Исключение составляет третье лицо единственного числа (he / " textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="445.0" text="she / it) — к нему прибавляется окончание -s:" textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="460.0" text="I ride — She rides" textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="475.0" text="I dream — He dreams" textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="20.0" layoutY="490.0" text="Если глагол оканчивается на -s, -ss, -sh, -ch, -x, -o, то к нему прибавляется окончание -es" textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="505.0" text="I wish — She wishes" textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="520.0" text="I teach — She teaches" textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="20.0" layoutY="535.0" text="Если глагол оканчивается на -y, а ему предшествует согласная, то к нему прибавляется окончание -es, но -y заменяется на -i" textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="550.0" text="I try — She tries" textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="565.0" text="I fly — He flies" textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="595.0" text="I play — She plays" textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="20.0" layoutY="580.0" text="Если глагол оканчивается на -y, а ему предшествует гласная, то к нему также прибавляется окончание -s, но -y не меняется." textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="610.0" text="I stay — He stays" textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="20.0" layoutY="645.0" text="Отрицание:" textFill="#45a29e" underline="true">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="20.0" layoutY="660.0" text="Чтобы составить отрицательное предложение — нужно поставить вспомогательный глагол между подлежащим и глаголом." textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="675.0" text="I / We / You / They + do not (don’t) + V" textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="690.0" text="She / He / It + does not (doesn’t) + V" textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="705.0" text="I don’t go to school every day — Я не хожу в школу каждый день" textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="720.0" text="They don’t drink beer — Они не пьют пиво" textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="735.0" text="She doesn’t like the weather in London — Ей не нравится погода в Лондоне" textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="750.0" text="He doesn't drive the car — Он не водит машину" textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="20.0" layoutY="765.0" text="Отрицание также можно выразить при помощи отрицательных местоимений и наречий." textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="795.0" text="I do nothing — Я ничего не делаю" textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="20.0" layoutY="830.0" text="Вопрос:" textFill="#45a29e" underline="true">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="780.0" text="Nobody speaks Arabic — Никто не говорит по-арабски" textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="20.0" layoutY="845.0" text="При составлении вопросительных предложений вспомогательный глагол ставится перед подлежащим и последующим глаголом. Обычно — в начало " textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="860.0" text="предложения." textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="875.0" text="Do + I / we / you / they + V ?" textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="890.0" text="Does + she / he / it + V ?" textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="905.0" text="Do you like pizza? — Тебе нравится пицца?" textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="920.0" text="Do they play football? — Они играют в футбол?" textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="935.0" text="Does she learn Russian? — Она изучает русский язык?" textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="950.0" text="Does he live in Spain? — Он живет в Испании?" textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="20.0" layoutY="965.0" text="Иногда в вопросительном предложении употребляются question words ( вопросительные слова ) и фразы, которые помогают задать более точный и" textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="980.0" text="корректный вопрос собеседнику." textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="20.0" layoutY="995.0" text="К таким словам относятся: how long (как долго), why (почему), where (где) и другие. Как и в других временах, они ставятся в самом начале предложения" textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="1010.0" text="перед вопросительной конструкцией Present Simple." textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="1025.0" text="QW + do (does) + I / We / You / They / She / He / It + V ?" textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="1040.0" text="Where does he live in Prague? — Где он живет в Праге?" textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="1055.0" text="Why do you drink green tea? — Почему ты пьешь зеленый чай?" textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="20.0" layoutY="1070.0" text="Когда в предложении с Present Simple появляется вспомогательный глагол — у основного глагола пропадает окончание -s. Считайте, что это такой" textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="1085.0" text="своеобразный «магнит», который «перетягивает» к себе это окончание. Это касается отрицательной и вопросительной форм Present Simple." textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="20.0" layoutY="1100.0" text="ВАЖНО: иногда вспомогательный глагол do / does можно встретить и в утвердительных предложениях, чтобы добавить экспрессии и яркости" textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="1115.0" text="высказыванию ." textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="1130.0" text="I do want to try this — Я действительно хочу это попробоватьI do want to try this — Я действительно хочу это попробовать" textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="1145.0" text="Mary does know how to cook — Мэри действительно умеет готовить" textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="20.0" layoutY="1180.0" text="Глагол to be в Present Simple" textFill="#45a29e" underline="true">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="20.0" layoutY="1195.0" text="Глагол to be (быть) всегда является особенным и его употребление во времени Present Simple зависит от подлежащего. Он имеет 3 разных формы:" textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="1210.0" text="am (для 1-го лица единственного числа: I)" textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="1225.0" text="is (для 3-го лица единственного числа: she / he / it)" textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="1240.0" text="are (для 1-го, 2-го и 3-го лица множественного числа: we / you / they)" textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="1256.0" text="I am ready — Я готов" textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="1271.0" text="She is ready — Она готова" textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="1286.0" text="We are ready — Мы готовы" textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="20.0" layoutY="1320.0" text="Когда используется Present Simple?" textFill="#45a29e">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="20.0" layoutY="1355.0" text="Present Simple используется в описании действий, которые происходят постоянно, на регулярной основе, но не привязаны к моменту речи." textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="20.0" layoutY="1370.0" text="Употребление Present Simple уместно в тех случаях, когда мы хотим рассказать о нашей ежедневной рутине, достоверно известных фактах, действиях в широком" textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="1385.0" text="смысле слова или расписании поездов." textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="20.0" layoutY="1420.0" text="Регулярные, повторяющиеся действия:" textFill="#45a29e" underline="true">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="1435.0" text="I often go to the bar — Я часто хожу в бар" textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="1450.0" text="They play music every Sunday — Они играют музыку каждое воскресенье" textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="20.0" layoutY="1485.0" text="Действие в широком смысле слова (без привязки к моменту речи):" textFill="#45a29e" underline="true">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="1500.0" text="I live in Dublin — Я живу в Дублине." textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="1515.0" text="She speaks Chinese — Она говорит по-китайски." textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="20.0" layoutY="1550.0" text="Факты, о которых знают все:" textFill="#45a29e" underline="true">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="1580.0" text="The Earth rotates around its axis — Земля вращается вокруг своей оси." textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="1565.0" text="Moscow is the largest city in Russia — Москва самый большой город в России" textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="20.0" layoutY="1615.0" text="Будущие действия, которые произойдут согласно расписанию:" textFill="#45a29e" underline="true">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="1645.0" text="The airplane takes off at 4.30 am — Самолет взлетит в 4.30 утра." textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="1630.0" text="The train leaves at 9 pm tomorrow — Поезд отходит завтра в 9 вечера." textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="20.0" layoutY="1680.0" text="Рецепты и инструкции (используется вместо повелительного наклонения):" textFill="#45a29e" underline="true">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="1695.0" text="You push the red button to turn on the radio — Нажмите на красную кнопку, чтобы включить радио" textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="1710.0" text="First you turn left and then you go down the street — Сперва поверните налево, затем идите до конца улицы" textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="20.0" layoutY="1725.0" text="При перечислении каких-то действий и их определенной последовательности также используется время Present Simple" textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="1740.0" text="You take the bus into the city center and then you take a taxi to the restaurant — Вы едете на автобусе до центра города, а затем берете такси до ресторана." textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="17.0" layoutY="1755.0" text="Иногда время Present Simple используется в отношении прошедшего времени. Например, в заголовках газет (указывают на факт произошедшего действия) или в" textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="1770.0" text="рассказе о событии (когда мы говорим о ком-то и его действиях)." textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="1785.0" text="The bus with American tourists crashes in India — В Индии разбился автобус с американскими туристами" textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="1800.0" text="I met John last week. He comes to me and says: “Hello, old friend” — На прошлой неделе я встретил Джона. Он подошел ко мне и сказал: «Привет, старый друг»" textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="20.0" layoutY="1835.0" text="Маркеры времени Present Simple" textFill="#45a29e">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="20.0" layoutY="1870.0" text="Для того, чтобы лучше сориентироваться где и когда употребляются глаголы Present Simple — обратите внимание на особые маркеры в тексте." textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="20.0" layoutY="1885.0" text="Такими «маячками» для Present Simple являются наречия ( often, always, usually, etc. ) и указатели времени ( every day, in the morning, on Fridays, etc. )." textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="1900.0" text="She always drinks coffee in the morning — Она всегда пьет кофе по утрам" textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="1915.0" text="I usually wake up at 6 am — Обычно я просыпаюсь в 6 утра" textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="1930.0" text="They often talk about sport — Они часто говорят о спорте" textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="1945.0" text="I check my smartphone every 15 minutes — Я проверяю свой телефон каждые 15 минут" textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="1960.0" text="He takes a shower twice a day — Он принимает душ два раза в день" textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="1990.0" text="On Mondays we go to the central park — По понедельникам мы ходим в центральный парк" textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="1975.0" text="He comes here sometimes — Иногда он приходит сюда" textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="20.0" layoutY="2025.0" text="Примеры предложений с Present Simple:" textFill="#45a29e">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="20.0" layoutY="2060.0" text="Утвердительные предложения:" textFill="#45a29e" underline="true">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="2075.0" text="I read a book every evening — Я читаю книгу каждый вечер" textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="2090.0" text="He likes to be polite — Ему нравится быть вежливым" textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="2105.0" text="It takes two hours to fly from Berlin — Полет из Берлина займет два часа" textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="2120.0" text="Cats like milk — Кошки любят молоко" textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="20.0" layoutY="2155.0" text="Отрицательные предложения:" textFill="#45a29e" underline="true">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="2170.0" text="I don’t buy food in the supermarket — Я не покупаю еду в супермаркете" textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="2185.0" text="He doesn’t play piano very well — Он не очень хорошо играет на пианино" textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="2200.0" text="They don’t read books — Они не читают книги" textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="2215.0" text="Duck don’t eat fish — Утки не едят рыбу" textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="20.0" layoutY="2250.0" text="Вопросительные предложения:" textFill="#45a29e" underline="true">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="2265.0" text="Do you live in Paris? — Ты живешь в Париже?" textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="2280.0" text="Does she play in a band? — Она играет в группе?" textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="2295.0" text="Do you eat fish? — Ты ешь рыбу?" textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="2310.0" text="Do they like coffee? — Им нравится кофе?" textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+              </content>
+            </ScrollPane>
+         </children>
+      </VBox>
+   </center>
+   <left>
+      <VBox minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="119.0" style="-fx-background-color: #0B0C10;">
+         <children>
+            <Button mnemonicParsing="false" onAction="#switchToMainFrame" prefHeight="25.0" prefWidth="135.0" style="-fx-background-color: #0B0C10; -fx-border-color: #45a29e; -fx-border-radius: 11px;" text="Главнвя" textFill="#45a29e">
+               <VBox.margin>
+                  <Insets left="3.0" right="3.0" top="5.0" />
+               </VBox.margin>
+               <padding>
+                  <Insets left="3.0" />
+               </padding>
+            </Button>
+            <AnchorPane prefHeight="8.0" prefWidth="132.0">
+               <VBox.margin>
+                  <Insets left="3.0" top="5.0" />
+               </VBox.margin>
+               <padding>
+                  <Insets left="3.0" />
+               </padding>
+            </AnchorPane>
+            <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="135.0" style="-fx-background-color: #0B0C10; -fx-border-color: #45a29e; -fx-border-radius: 11px;" text="Словарь" textFill="#45a29e">
+               <VBox.margin>
+                  <Insets left="3.0" right="3.0" top="5.0" />
+               </VBox.margin>
+               <padding>
+                  <Insets left="3.0" />
+               </padding>
+            </Button>
+            <AnchorPane prefHeight="8.0" prefWidth="135.0">
+               <VBox.margin>
+                  <Insets left="3.0" top="5.0" />
+               </VBox.margin>
+               <padding>
+                  <Insets left="3.0" />
+               </padding>
+            </AnchorPane>
+            <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="135.0" style="-fx-background-color: #0B0C10; -fx-border-color: #45a29e; -fx-border-radius: 11px;" text="Темы" textFill="#45a29e">
+               <VBox.margin>
+                  <Insets left="3.0" right="3.0" top="5.0" />
+               </VBox.margin>
+               <padding>
+                  <Insets left="3.0" />
+               </padding>
+            </Button>
+            <AnchorPane prefHeight="8.0" prefWidth="135.0">
+               <VBox.margin>
+                  <Insets left="3.0" top="5.0" />
+               </VBox.margin>
+               <padding>
+                  <Insets left="3.0" />
+               </padding>
+            </AnchorPane>
+            <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="135.0" style="-fx-background-color: #0B0C10; -fx-border-color: #45a29e; -fx-border-radius: 11px;" text="Настройки" textFill="#45a29e">
+               <VBox.margin>
+                  <Insets left="3.0" right="3.0" top="5.0" />
+               </VBox.margin>
+               <padding>
+                  <Insets left="3.0" />
+               </padding>
+            </Button>
+         </children>
+      </VBox>
+   </left>
+</BorderPane>

@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane prefHeight="3170.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <center>
+      <VBox prefHeight="574.0" prefWidth="477.0" style="-fx-background-color: #0B0C10; -fx-border-color: #1F2833;" BorderPane.alignment="CENTER">
+         <padding>
+            <Insets left="3.0" />
+         </padding>
+         <children>
+            <ScrollPane prefHeight="3167.0" prefWidth="476.0" style="-fx-background-color: #0B0C10;">
+              <content>
+                <AnchorPane prefHeight="3164.0" prefWidth="1303.0" style="-fx-background-color: #0B0C10;">
+                     <children>
+                        <Label layoutX="154.0" layoutY="14.0" text="Глагол to be в английском языке" textFill="#45a29e" />
+                        <Label layoutX="45.0" layoutY="45.0" text="Как to be переводится на русский язык" textFill="#45a29e" />
+                        <Label layoutX="14.0" layoutY="113.0" text="To be переводится «to be» как «быть», «находиться», «существовать» или «являться». Например, I want to be with you («Я хочу быть с тобой») или To be or not to be («Быть или не быть»). " textFill="#45a29e" />
+                        <Label layoutX="14.0" layoutY="79.0" text="Вспомогательный сам по себе не несет смысловой нагрузки, но он позволяет нам понять контекст — с его помощью вы можете определить время и количество действующих лиц.  Вспомогательные " textFill="#45a29e" />
+                        <Label layoutX="14.0" layoutY="62.0" text="В английском языке есть две группы глаголов: смысловые и вспомогательные. Смысловые обозначают какое-то действие — играть (to play), надеяться (to hope), спать (to sleep) и так далее. " textFill="#45a29e" />
+                        <Label layoutX="45.0" layoutY="31.0" text="Форма to be меняется в зависимости от подлежащего и времени. В настоящем времени у глагола есть три формы: am, is, are." textFill="#45a29e" />
+                        <Label layoutX="45.0" layoutY="175.0" text="В английском так не получится: обязательно потребуется глагол to be в той или иной форме. " textFill="#45a29e" />
+                        <Label layoutX="14.0" layoutY="138.0" text="Но, как мы уже сказали, он может и не переводиться вообще. По-русски мы говорим «Это не моя собака», «Билли у себя в офисе», «Какое сегодня число?» или «Мы друзья», не используя никаких " textFill="#45a29e" />
+                        <Label layoutX="14.0" layoutY="96.0" text="глаголы не переводятся, но английский без них обойтись не может. Глагол to be может быть и смысловым, и вспомогательным. " textFill="#45a29e" />
+                        <Label layoutX="45.0" layoutY="199.0" text="Billy is in his office. – Билли находится в своем офисе" textFill="#45a29e" />
+                        <Label layoutX="45.0" layoutY="216.0" text="We are friends. – Мы являемся друзьями" textFill="#45a29e" />
+                        <Label layoutX="14.0" layoutY="155.0" text="глаголов. В английском так не получится: обязательно потребуется глагол to be в той или иной форме." textFill="#45a29e" />
+                        <Label layoutX="44.0" layoutY="242.0" text="Jack Sparrow is a pirate. – Джек Воробей есть пират" textFill="#45a29e" />
+                        <Label layoutX="45.0" layoutY="268.0" text="This is not my dog. – Эта собака не является моей " textFill="#45a29e" />
+                        <Label layoutX="45.0" layoutY="285.0" text="I am tired. – Я являюсь усталым " textFill="#45a29e" />
+                        <Label layoutX="45.0" layoutY="302.0" text="What date is today? – Какое сегодня есть число?" textFill="#45a29e" />
+                        <Label layoutX="14.0" layoutY="319.0" text="Вы уже заметили, что ни в одном из этих предложений нет слов to be. Правильно, потому что этот глагол — единственный в английском, который изменяется по лицам и числам. " textFill="#45a29e" />
+                        <Label layoutX="14.0" layoutY="336.0" text="У него есть три формы настоящего времени (am, is, are), две формы прошедшего времени (was и were) и одна форма будущего (will). " textFill="#45a29e" />
+                        <Label layoutX="45.0" layoutY="359.0" text="Когда используется глагол To be" textFill="#45a29e" />
+                        <Label layoutX="45.0" layoutY="383.0" text="Как применять глагол to be — правило гласит, что этот глагол используется: " textFill="#45a29e" />
+                        <Label layoutX="45.0" layoutY="400.0" text="В описаниях свойств или качеств " textFill="#45a29e" />
+                        <Label layoutX="45.0" layoutY="434.0" text="We are in love. – Мы влюблены. " textFill="#45a29e" />
+                        <Label layoutX="45.0" layoutY="417.0" text="He is tall. – Он высокий. " textFill="#45a29e" />
+                        <Label layoutX="45.0" layoutY="451.0" text="Когда мы кого-то характеризуем " textFill="#45a29e" />
+                        <Label layoutX="40.0" layoutY="477.0" text="Amy is a good mother. – Эми — хорошая мать." textFill="#45a29e" />
+                        <Label layoutX="42.0" layoutY="494.0" text="Когда определяем чье-то местонахождение " textFill="#45a29e" />
+                        <Label layoutX="41.0" layoutY="511.0" text="She is in Japan now. – Она сейчас в Японии. " textFill="#45a29e" />
+                        <Label layoutX="42.0" layoutY="528.0" text="The car is in the garage. – Машина в гараже. " textFill="#45a29e" />
+                        <Label layoutX="42.0" layoutY="548.0" text="ВАЖНО!Сочетания глагол to be + глагол не существует в природе. Нельзя сказать he is drive или managers are work. " textFill="#45a29e" />
+                        <Label layoutX="42.0" layoutY="565.0" text="Формы глагола to be в настоящем " textFill="#45a29e" />
+                        <Label layoutX="42.0" layoutY="582.0" text="Спряжение to be — один из краеугольных камней английской грамматики. Настоящее время используется чаще прочих, поэтому с него и начнем. " textFill="#45a29e" />
+                        <Label layoutX="42.0" layoutY="599.0" text="В настоящем у глагола to be есть целых три формы: am, is и are." textFill="#45a29e" />
+                        <Label layoutX="14.0" layoutY="625.0" text="Am используется с I (Я). Is — c he (он), she (она), it (оно). Аre — с местоимениями we (мы), they (они) и you, которое в английском может означать «ты», вежливое «вы» и «вы» при обращении к " textFill="#45a29e" />
+                        <Label layoutX="14.0" layoutY="642.0" text="группе людей. " textFill="#45a29e" />
+                        <Label layoutX="22.0" layoutY="659.0" text="Если хотите запомнить формы to be — таблица вам в помощь: " textFill="#45a29e" />
+                        <Label layoutX="22.0" layoutY="786.0" text="Вот как это выглядит на практике: " textFill="#45a29e" />
+                        <Label layoutX="22.0" layoutY="803.0" text="Гульнара – доктор. - Gulnara is a doctor. " textFill="#45a29e" />
+                        <Label layoutX="22.0" layoutY="820.0" text="Мы заняты. - We are busy. " textFill="#45a29e" />
+                        <Label layoutX="22.0" layoutY="837.0" text="Мои друзья путешествуют. - My friends are traveling. " textFill="#45a29e" />
+                        <Label layoutX="22.0" layoutY="854.0" text="Это ясно. - It is clear. " textFill="#45a29e" />
+                        <Label layoutX="22.0" layoutY="871.0" text="Твой кот очень толстый. - Your cat is very fat. " textFill="#45a29e" />
+                        <Label layoutX="22.0" layoutY="888.0" text="Эти вопросы – спорные. -  These issues are controversial." textFill="#45a29e" />
+                        <ImageView fitHeight="75.0" fitWidth="200.0" layoutX="166.0" layoutY="687.0" pickOnBounds="true" preserveRatio="true" />
+                        <Label layoutX="23.0" layoutY="905.0" text="Я готов. - I am ready. " textFill="#45a29e" />
+                        <Label layoutX="25.0" layoutY="922.0" text="Чтобы сэкономить время, англичане и американцы часто сокращают am, is и are: " textFill="#45a29e" />
+                        <Label layoutX="25.0" layoutY="939.0" text="I am → I’m " textFill="#45a29e" />
+                        <Label layoutX="22.0" layoutY="956.0" text="He is → He’s " textFill="#45a29e" />
+                        <Label layoutX="23.0" layoutY="973.0" text="She is → She’s " textFill="#45a29e" />
+                        <Label layoutX="22.0" layoutY="990.0" text="It is → It’s" textFill="#45a29e" />
+                        <Label layoutX="22.0" layoutY="1007.0" text="You are → You’re " textFill="#45a29e" />
+                        <Label layoutX="22.0" layoutY="1024.0" text="We are → We’re " textFill="#45a29e" />
+                        <Label layoutX="20.0" layoutY="1041.0" text="They are → They’re " textFill="#45a29e" />
+                        <Label layoutX="22.0" layoutY="1058.0" text="Формы глагола to be в прошедшем " textFill="#45a29e" />
+                        <Label layoutX="20.0" layoutY="1075.0" text="Формы этого глагола в прошедшем времени запомнить еще проще. Их всего две: was для единственного числа и were — для множественного (включая you, который, как мы помним, по-английски" textFill="#45a29e" />
+                        <Label layoutX="22.0" layoutY="1092.0" text="значит не только «ты», но и «вы» при обращении к группе людей). Говорим об одном человеке или предмете — используем was. О нескольких — were. Easy peasy lemon squeezy, как говорят " textFill="#45a29e" />
+                        <Label layoutX="22.0" layoutY="1109.0" text="В этой табличке мы собрали примеры предложений с to be в прошедшем времени: " textFill="#45a29e" />
+                        <Label layoutX="24.0" layoutY="1239.0" text="Verb to be в прошедшем времени " textFill="#45a29e" />
+                        <Label layoutX="24.0" layoutY="1251.0" text="Я был рад встретиться с вами - I was glad to meet you" textFill="#45a29e" />
+                        <Label layoutX="25.0" layoutY="1264.0" text="Фильм был интересным - The movie was interesting " textFill="#45a29e" />
+                        <Label layoutX="25.0" layoutY="1277.0" text="Они были друзьями в старших классах - They were friends in high school " textFill="#45a29e" />
+                        <Label layoutX="26.0" layoutY="1289.0" text="Мы были дома. - We were at home. " textFill="#45a29e" />
+                        <Label layoutX="26.0" layoutY="1302.0" text="Стэнли Кубрик был великим режиссером. - Stanley Kubrick was a great film director " textFill="#45a29e" />
+                        <ImageView fitHeight="75.0" fitWidth="200.0" layoutX="39.0" layoutY="1136.0" pickOnBounds="true" preserveRatio="true" />
+                        <Label layoutX="25.0" layoutY="1314.0" text="Вы были моим любимым учителем. -  You were my favorite teacher " textFill="#45a29e" />
+                        <Label layoutX="25.0" layoutY="1331.0" text="Формы глагола to be в будущем " textFill="#45a29e" />
+                        <Label layoutX="28.0" layoutY="1348.0" text="Тут все совсем просто: в современном английском языке у глагола to be в будущем времени есть только одна форма — will. " textFill="#45a29e" />
+                        <Label layoutX="28.0" layoutY="1365.0" text="Наверняка из школьных уроков вы помните, что «глагол ту би», как мы его называли, в будущем времени имеет две формы: shall с I (я) и We (мы) и will со всеми остальными. Забудьте это! На самом " textFill="#45a29e" />
+                        <Label layoutX="28.0" layoutY="1382.0" text="деле в современном английском языке со всеми местоимениями используется только will.  " textFill="#45a29e" />
+                        <Label layoutX="24.0" layoutY="1399.0" text="Когда-то все действительно было так, как описывалось в советских учебниках английского. В «Алисе в Стране Чудес», написанной в 1862 году, Белый Кролик восклицает Oh dear! I shall be late! (Боже " textFill="#45a29e" />
+                        <Label layoutX="28.0" layoutY="1416.0" text="мой! Я опоздаю!). " textFill="#45a29e" />
+                        <Label layoutX="22.0" layoutY="1433.0" text="Но уже во времена Великого Гэтсби почти никто не говорил I shall go to the dentist tomorrow («Завтра я пойду к дантисту»). Уже лет сто с любыми местоимениями в будущем времени используется will, " textFill="#45a29e" />
+                        <Label layoutX="31.0" layoutY="1450.0" text="и точка. " textFill="#45a29e" />
+                        <Label layoutX="28.0" layoutY="1467.0" text="Впрочем, shall не исчезло из языка совсем. Но теперь у него иное значение. Shall используют, когда хотят предложить что-то или помочь. Например, Shall we go? (Ну что, пойдем?) или Shall I shut the " textFill="#45a29e" />
+                        <Label layoutX="28.0" layoutY="1484.0" text="window? (Закрыть окно?). Можно добавить shall в конце вопросительного предложения, чтобы подчеркнуть свое нетерпение и даже раздражение: Let's just do it, shall we? (Давайте просто сделаем " textFill="#45a29e" />
+                        <Label layoutX="28.0" layoutY="1501.0" text="это, ладно?) Но для выражения будущего времени форма shall определенно устарела." textFill="#45a29e" />
+                        <Label layoutX="31.0" layoutY="1535.0" text="Verb to be в будущем времени " textFill="#45a29e" />
+                        <Label layoutX="29.0" layoutY="1518.0" text="Вот несколько примеров, как использовать глагол to be в будущем времени и построить предложение:  " textFill="#45a29e" />
+                        <Label layoutX="29.0" layoutY="1552.0" text="Я встречусь с моим врачом завтра. - I will meet my doctor tomorrow " textFill="#45a29e" />
+                        <Label layoutX="29.0" layoutY="1569.0" text="Наш менеджер вам перезвонит. - Our manager will call you back " textFill="#45a29e" />
+                        <Label layoutX="29.0" layoutY="1586.0" text="Эта таблетка тебе поможет. - This pill will help you " textFill="#45a29e" />
+                        <Label layoutX="29.0" layoutY="1603.0" text="Инга поедет в Лондон этим летом. - Inga will go to London this summer " textFill="#45a29e" />
+                        <Label layoutX="29.0" layoutY="1620.0" text="Илон Маск скоро  создаст машину времени. - Elon Musk will create a time machine soon  " textFill="#45a29e" />
+                        <Label layoutX="29.0" layoutY="1637.0" text="Ты сдашь экзамен. - Elon Musk will create a time machine soon " textFill="#45a29e" />
+                        <Label layoutX="29.0" layoutY="1654.0" text="Меган и Гарри будут в Сан Диего на этих выходных. - Megan and Harry will be in San Diego this weekend." textFill="#45a29e" />
+                        <Label layoutX="29.0" layoutY="1666.0" text="Глагол to be в отрицательных предложениях " textFill="#45a29e" />
+                        <Label layoutX="30.0" layoutY="1679.0" text="Как сказать «Мы не заняты», «Она не доктор» и «Твой кот не толстый»? Отрицательное предложение строится очень просто: нужно добавить после глагола частицу. " textFill="#45a29e" />
+                        <Label layoutX="32.0" layoutY="1690.0" text="Посмотрите примеры отрицательных предложений с глаголом to be и все станет ясно: " textFill="#45a29e" />
+                        <Label layoutX="31.0" layoutY="1701.0" text="Они не друзья. - They are not friends  " textFill="#45a29e" />
+                        <Label layoutX="33.0" layoutY="1714.0" text="Это было не так уж просто. - It was not that simple" textFill="#45a29e" />
+                        <Label layoutX="33.0" layoutY="1730.0" text="Моя сестра не замужем. - My sister is not married  " textFill="#45a29e" />
+                        <Label layoutX="34.0" layoutY="1746.0" text="Они не будут там вовремя. - They will not be there on time  " textFill="#45a29e" />
+                        <Label layoutX="33.0" layoutY="1761.0" text="Мы не были капризными детьми. - We were not naughty kids  " textFill="#45a29e" />
+                        <Label layoutX="31.0" layoutY="1777.0" text="Я не в восторге от Post Malone. - I am not a fan of Post Malone  " textFill="#45a29e" />
+                        <Label layoutX="30.0" layoutY="1793.0" text="Этот пирог вообще не сладкий. - This pie is not sweet at all  " textFill="#45a29e" />
+                        <Label layoutX="30.0" layoutY="1809.0" text="Можно ли сокращать глагол to be в английском языке в отрицательных предложениях? Запросто! " textFill="#45a29e" />
+                        <Label layoutX="31.0" layoutY="1828.0" text="is not → isn’t; " textFill="#45a29e" />
+                        <Label layoutX="31.0" layoutY="1845.0" text="are not → aren’t " textFill="#45a29e" />
+                        <Label layoutX="30.0" layoutY="1862.0" text="am not →ain’t" textFill="#45a29e" />
+                        <Label layoutX="31.0" layoutY="1876.0" text="were not → weren’t " textFill="#45a29e" />
+                        <Label layoutX="31.0" layoutY="1892.0" text="was not → wasn’t " textFill="#45a29e" />
+                        <Label layoutX="30.0" layoutY="1909.0" text="will not → won’t." textFill="#45a29e" />
+                        <Label layoutX="31.0" layoutY="1931.0" text="Глагол to be в вопросительных предложениях " textFill="#45a29e" />
+                        <Label layoutX="38.0" layoutY="1951.0" text="В русском для того, чтобы задать вопрос, необязательно менять порядок слов в предложении — достаточно использовать вопросительную интонацию. Но в английском придется изменить порядок" textFill="#45a29e" />
+                        <Label layoutX="34.0" layoutY="1969.0" text="слов." textFill="#45a29e" />
+                        <Label layoutX="33.0" layoutY="1985.0" text="Но не паникуйте, вопросы с глаголом to be строятся очень просто: выносим глагол в самое начало предложения и ставим перед подлежащим. " textFill="#45a29e" />
+                        <Label layoutX="34.0" layoutY="2001.0" text="Вот примеры вопросительных предложений с глаголом to be для наглядности: " textFill="#45a29e" />
+                        <Label layoutX="34.0" layoutY="2016.0" text="Я прав? - Am I right?" textFill="#45a29e" />
+                        <Label layoutX="33.0" layoutY="2032.0" text="Они опоздали? - Were they late?" textFill="#45a29e" />
+                        <Label layoutX="33.0" layoutY="2046.0" text="Ник был твоим начальником? - Was Nick your boss? " textFill="#45a29e" />
+                        <Label layoutX="34.0" layoutY="2061.0" text="Это наташина сумка? - Is it Natasha’s bag? " textFill="#45a29e" />
+                        <Label layoutX="34.0" layoutY="2072.0" text="Ты будешь там в 6 часов? - Will you be there at 6 o'clock? " textFill="#45a29e" />
+                        <Label layoutX="34.0" layoutY="2083.0" text="Мы счастливы?  - Are we happy? " textFill="#45a29e" />
+                        <Label layoutX="34.0" layoutY="2094.0" text="Разделительные вопросы (tag questions) с глаголом to be " textFill="#45a29e" />
+                        <Label layoutX="35.0" layoutY="2108.0" text="Сконструировать вопросительное предложение можно и иначе – при помощи так называемых разделительных вопросов (tag questions). Их еще иногда называют tail questions, то есть «вопросы с " textFill="#45a29e" />
+                        <Label layoutX="36.0" layoutY="2120.0" text="хвостиком». И это очень точно определяет их сущность!" textFill="#45a29e" />
+                        <Label layoutX="36.0" layoutY="2132.0" text="Tag questions состоят из двух частей. Первая часть — это обычное утвердительное или отрицательное предложение. Вторая — вопрос, который отделяется от первой части предложения запятой. " textFill="#45a29e" />
+                        <Label layoutX="38.0" layoutY="2146.0" text="Вам нужно запомнить только одно правило: утверждения сопровождаются отрицательными tags questions, а отрицательные — утвердительными. " textFill="#45a29e" />
+                        <Label layoutX="40.0" layoutY="2162.0" text="Чтобы вам точно стало понятно, рассмотрим несколько примеров предложений с разделительными вопросами: " textFill="#45a29e" />
+                        <Label layoutX="38.0" layoutY="2179.0" text="Я не очень хороший танцор, да? - I am not a very good dancer, am I?" textFill="#45a29e" />
+                        <Label layoutX="37.0" layoutY="2194.0" text="Ты собирался пропустить это семейное сборище, так? - You were going to skip this family reunion, weren't you? " textFill="#45a29e" />
+                        <Label layoutX="38.0" layoutY="2211.0" text="Адам очень талантлив, не так ли?  - Adam is very talented, isn’t he? " textFill="#45a29e" />
+                        <Label layoutX="39.0" layoutY="2227.0" text="Фильм был не страшный, правда? - The movie was not scary, was it? " textFill="#45a29e" />
+                        <Label layoutX="40.0" layoutY="2242.0" text="Мама будет сердиться, да? - Mom will be angry, won’t she? " textFill="#45a29e" />
+                        <Label layoutX="40.0" layoutY="2258.0" text="Они не были богаты, не правда ли? - They were not rich, were they? " textFill="#45a29e" />
+                        <Label layoutX="40.0" layoutY="2275.0" text="Задавая такой «хвостатый» вопрос, вы приглашаете собеседника к диалогу. Tag questions придают речи легкость, непринужденность, они сглаживают острые углы и позволяют вам звучать менее" textFill="#45a29e" />
+                        <Label layoutX="42.0" layoutY="2294.0" text="категорично. " textFill="#45a29e" />
+                        <Label layoutX="42.0" layoutY="2309.0" text="Глагол to be и времена группы Continuous " textFill="#45a29e" />
+                        <Label layoutX="40.0" layoutY="2323.0" text="To be может являться и частью глагольного сказуемого. В частности, во временах группы Continuous без него не обойтись. Эта группа описывает продолжительное действие, которое происходило " textFill="#45a29e" />
+                        <Label layoutX="40.0" layoutY="2338.0" text="в прошлом (Past Continuous), происходит в настоящий момент, прямо сейчас (Present Continuous) или будет происходить какое-то время в будущем (Future Continuous)." textFill="#45a29e" />
+                        <Label layoutX="39.0" layoutY="2353.0" text="В каждом из этих времен используется определенная форма глагола to be (is, am, are, was, were или will be) в сочетании со смысловым глаголом с окончанием -ing. Схематически это выглядить вот" textFill="#45a29e" />
+                        <Label layoutX="38.0" layoutY="2369.0" text="так: to be+V+ing. И в этом случае смысловой глагол будет переводиться на русский, а глагол to be – нет.  " textFill="#45a29e" />
+                        <Label layoutX="39.0" layoutY="2387.0" text="Но хватит теории. Перейдем к практике – как мы уже выяснили, на примерах усваивать новый материал удобнее всего. Итак, вот примеры использования глагола to be во временах группы Continuous: " textFill="#45a29e" />
+                        <Label layoutX="38.0" layoutY="2662.0" text="Это наташина сумка? " textFill="#45a29e" />
+                        <Label layoutX="37.0" layoutY="2675.0" text="Это наташина сумка? " textFill="#45a29e" />
+                        <Label layoutX="36.0" layoutY="2691.0" text="Это наташина сумка? " textFill="#45a29e" />
+                        <Label layoutX="36.0" layoutY="2708.0" text="Это наташина сумка? " textFill="#45a29e" />
+                        <Label layoutX="35.0" layoutY="2724.0" text="Это наташина сумка? " textFill="#45a29e" />
+                        <Label layoutX="36.0" layoutY="2742.0" text="Это наташина сумка? " textFill="#45a29e" />
+                        <Label layoutX="38.0" layoutY="2760.0" text="Это наташина сумка? " textFill="#45a29e" />
+                        <Label layoutX="35.0" layoutY="2777.0" text="Это наташина сумка? " textFill="#45a29e" />
+                        <Label layoutX="32.0" layoutY="2791.0" text="Это наташина сумка? " textFill="#45a29e" />
+                        <Label layoutX="30.0" layoutY="2809.0" text="Это наташина сумка? " textFill="#45a29e" />
+                        <Label layoutX="30.0" layoutY="2826.0" text="Это наташина сумка? " textFill="#45a29e" />
+                        <TableView layoutX="62.0" layoutY="2443.0" prefHeight="200.0" prefWidth="200.0">
+                          <columns>
+                            <TableColumn prefWidth="75.0" text="C1" />
+                            <TableColumn prefWidth="75.0" text="C2" />
+                          </columns>
+                        </TableView>
+                     </children>
+                  </AnchorPane>
+              </content>
+            </ScrollPane>
+         </children>
+      </VBox>
+   </center>
+   <left>
+      <VBox prefHeight="400.0" prefWidth="119.0" style="-fx-background-color: #0B0C10;" BorderPane.alignment="CENTER">
+         <children>
+            <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="135.0" style="-fx-background-color: #0B0C10; -fx-border-color: #45a29e; -fx-border-radius: 11px;" text="Главнвя" textFill="#45a29e">
+               <VBox.margin>
+                  <Insets left="3.0" right="3.0" top="5.0" />
+               </VBox.margin>
+               <padding>
+                  <Insets left="3.0" />
+               </padding>
+            </Button>
+            <AnchorPane prefHeight="8.0" prefWidth="132.0">
+               <VBox.margin>
+                  <Insets left="3.0" top="5.0" />
+               </VBox.margin>
+               <padding>
+                  <Insets left="3.0" />
+               </padding>
+            </AnchorPane>
+            <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="135.0" style="-fx-background-color: #0B0C10; -fx-border-color: #45a29e; -fx-border-radius: 11px;" text="Словарь" textFill="#45a29e">
+               <VBox.margin>
+                  <Insets left="3.0" right="3.0" top="5.0" />
+               </VBox.margin>
+               <padding>
+                  <Insets left="3.0" />
+               </padding>
+            </Button>
+            <AnchorPane prefHeight="8.0" prefWidth="135.0">
+               <VBox.margin>
+                  <Insets left="3.0" top="5.0" />
+               </VBox.margin>
+               <padding>
+                  <Insets left="3.0" />
+               </padding>
+            </AnchorPane>
+            <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="135.0" style="-fx-background-color: #0B0C10; -fx-border-color: #45a29e; -fx-border-radius: 11px;" text="Темы" textFill="#45a29e">
+               <VBox.margin>
+                  <Insets left="3.0" right="3.0" top="5.0" />
+               </VBox.margin>
+               <padding>
+                  <Insets left="3.0" />
+               </padding>
+            </Button>
+            <AnchorPane prefHeight="8.0" prefWidth="135.0">
+               <VBox.margin>
+                  <Insets left="3.0" top="5.0" />
+               </VBox.margin>
+               <padding>
+                  <Insets left="3.0" />
+               </padding>
+            </AnchorPane>
+            <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="135.0" style="-fx-background-color: #0B0C10; -fx-border-color: #45a29e; -fx-border-radius: 11px;" text="Настройки" textFill="#45a29e">
+               <VBox.margin>
+                  <Insets left="3.0" right="3.0" top="5.0" />
+               </VBox.margin>
+               <padding>
+                  <Insets left="3.0" />
+               </padding>
+            </Button>
+         </children>
+      </VBox>
+   </left>
+</BorderPane>

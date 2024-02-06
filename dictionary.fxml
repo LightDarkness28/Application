@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.application.SceneController">
+   <children>
+      <Button layoutX="14.0" layoutY="16.0" mnemonicParsing="false" onAction="#switchToMainFrame" text="Главная страница" />
+      <Button layoutX="260.0" layoutY="16.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="81.0" text="Обучение" />
+      <Button layoutX="366.0" layoutY="16.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="81.0" text="Задания" />
+      <Button layoutX="465.0" layoutY="16.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="114.0" text="Настройки" />
+      <ScrollPane layoutY="57.0" prefHeight="342.0" prefWidth="600.0">
+         <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="751.0" prefWidth="599.0">
+               <children>
+                  <Label layoutX="71.0" layoutY="38.0" text="Выученные слова" />
+                  <Label layoutX="251.0" layoutY="38.0" text="В процессе" />
+                  <Label layoutX="384.0" layoutY="38.0" text="Оставшиеся слова" />
+                  <AnchorPane layoutX="35.0" layoutY="70.0" prefHeight="200.0" prefWidth="167.0" />
+                  <AnchorPane layoutX="199.0" layoutY="70.0" prefHeight="200.0" prefWidth="167.0" />
+                  <AnchorPane layoutX="366.0" layoutY="70.0" prefHeight="200.0" prefWidth="167.0" />
+               </children>
+            </AnchorPane>
+         </content>
+      </ScrollPane>
+      <Button layoutX="136.0" layoutY="16.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="106.0" text="Словарь" />
+   </children>
+</AnchorPane>

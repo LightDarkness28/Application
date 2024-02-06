@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.geometry.Point3D?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="553.0" prefWidth="609.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.application.SceneController">
+   <center>
+      <VBox focusTraversable="true" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="350.0" style="-fx-background-color: #0B0C10; -fx-border-color: #1F2833;">
+         <padding>
+            <Insets left="3.0" />
+         </padding>
+         <children>
+            <ScrollPane style="-fx-background-color: #0B0C10;">
+              <content>
+                <AnchorPane prefHeight="900.0" prefWidth="1200.0" style="-fx-background-color: #0B0C10;">
+                     <children>
+                        <Label layoutX="80.0" layoutY="390.0" text="Ww" textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="290.0" layoutY="60.0" text="Ee" textFill="#fe1aa0">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label contentDisplay="CENTER" layoutX="195.0" layoutY="14.0" text="Алфавит" textAlignment="CENTER" textFill="#45a29e">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="430.0" layoutY="170.0" text="Nn" textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="60.0" text="Aa" textFill="#fe1aa0">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="9.0" layoutY="75.0" text="[ei]" textFill="#fe1aa0">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="90.0" text="эй" textFill="#fe1aa0">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="80.0" layoutY="60.0" text="Bb" textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="77.0" layoutY="75.0" text="[bi:]" textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="80.0" layoutY="90.0" text="би" textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="150.0" layoutY="60.0" text="Cc" textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="148.0" layoutY="75.0" text="[si:]" textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="151.0" layoutY="90.0" text="си" textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="220.0" layoutY="60.0" text="Dd" textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="217.0" layoutY="75.0" text="[di:]" textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="221.0" layoutY="90.0" text="ди" textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="290.0" layoutY="75.0" text="[i:]" textFill="#fe1aa0">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="295.0" text="[ou]" textFill="#fe1aa0">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="360.0" layoutY="60.0" text="Ff" textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="356.0" layoutY="75.0" text="[ef]" textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="358.0" layoutY="90.0" text="эф" textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="430.0" layoutY="60.0" text="Gg" textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="426.0" layoutY="75.0" text="[ʤi:]" textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="427.0" layoutY="90.0" text="джи" textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="8.0" layoutY="170.0" text="Hh" textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="8.0" layoutY="200.0" text="эйч" textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="4.0" layoutY="185.0" text="[eitʃ]" textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="82.0" layoutY="170.0" text="Ii" textFill="#fe1aa0">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="76.0" layoutY="185.0" text="[ai]" textFill="#fe1aa0">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="79.0" layoutY="200.0" text="ай" textFill="#fe1aa0">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="150.0" layoutY="170.0" text="Jj" textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="140.0" layoutY="185.0" text="[ʤei]" textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="220.0" layoutY="170.0" text="Kk" textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="214.0" layoutY="185.0" text="[kei]" textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="290.0" layoutY="170.0" text="Ll" textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="360.0" layoutY="170.0" text="Mm" textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="286.0" layoutY="185.0" text="[el]" textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="217.0" layoutY="200.0" text="кей" textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="139.0" layoutY="200.0" text="джей" textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="150.0" layoutY="280.0" text="Qq" textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="146.0" layoutY="295.0" text="[kju:]" textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="149.0" layoutY="310.0" text="кью" textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="220.0" layoutY="280.0" text="Rr" textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="218.0" layoutY="295.0" text="[a:]" textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="289.0" layoutY="200.0" text="эл" textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="290.0" layoutY="280.0" text="Ss" textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="210.0" layoutY="310.0" text="аа, ар" textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="290.0" layoutY="310.0" text="эс" textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="286.0" layoutY="295.0" text="[es]" textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="360.0" layoutY="280.0" text="Tt" textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="358.0" layoutY="295.0" text="[ti:]" textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="360.0" layoutY="310.0" text="ти" textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="358.0" layoutY="185.0" text="[em]" textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="364.0" layoutY="200.0" text="эм" textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="430.0" layoutY="280.0" prefHeight="25.0" prefWidth="38.0" text="Uu" textFill="#fe1aa0">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="428.0" layoutY="295.0" text="[ju:]" textFill="#fe1aa0">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="433.0" layoutY="310.0" text="ю" textFill="#fe1aa0">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="428.0" layoutY="185.0" text="[en]" textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="433.0" layoutY="200.0" text="эн" textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="280.0" text="Oo" textFill="#fe1aa0">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="294.0" layoutY="90.0" text="и" textFill="#fe1aa0">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="80.0" layoutY="280.0" text="Pp" textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="78.0" layoutY="295.0" text="[pi:]" textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="14.0" layoutY="310.0" text="оу" textFill="#fe1aa0">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="390.0" text="Vv" textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="8.0" layoutY="405.0" text="[vi:]" textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="420.0" text="ви" textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                           <rotationAxis>
+                              <Point3D />
+                           </rotationAxis>
+                        </Label>
+                        <Label layoutX="60.0" layoutY="405.0" text="[`dʌbl `ju:]" textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="82.0" layoutY="310.0" text="пи" textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="152.0" layoutY="390.0" text="Xx" textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="146.0" layoutY="405.0" text="[eks]" textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="69.0" layoutY="420.0" text="дабл-ю" textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="150.0" layoutY="420.0" text="экс" textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="292.0" layoutY="390.0" text="Zz" textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="285.0" layoutY="405.0" text="[zed] " textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="290.0" layoutY="420.0" text="зед" textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="223.0" layoutY="390.0" text="Yy" textFill="#fe1aa0">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="218.0" layoutY="405.0" text="[wai]" textFill="#fe1aa0">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="220.0" layoutY="420.0" text="уай" textFill="#fe1aa0">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="500.0" text="Розовым " textFill="#fe1aa0">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="82.0" layoutY="500.0" text="выделены гласные буквы и звуки." textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="515.0" text="Ниже написаны транскрипция буквы и произношение на усском" textFill="#45a29e">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+              </content>
+            </ScrollPane>
+         </children>
+      </VBox>
+   </center>
+   <left>
+      <VBox minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="119.0" style="-fx-background-color: #0B0C10;">
+         <children>
+            <Button mnemonicParsing="false" onAction="#switchToMainFrame" prefHeight="25.0" prefWidth="135.0" style="-fx-background-color: #0B0C10; -fx-border-color: #45a29e; -fx-border-radius: 11px;" text="Главнвя" textFill="#45a29e">
+               <VBox.margin>
+                  <Insets left="3.0" right="3.0" top="5.0" />
+               </VBox.margin>
+               <padding>
+                  <Insets left="3.0" />
+               </padding>
+            </Button>
+            <AnchorPane prefHeight="8.0" prefWidth="132.0">
+               <VBox.margin>
+                  <Insets left="3.0" top="5.0" />
+               </VBox.margin>
+               <padding>
+                  <Insets left="3.0" />
+               </padding>
+            </AnchorPane>
+            <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="135.0" style="-fx-background-color: #0B0C10; -fx-border-color: #45a29e; -fx-border-radius: 11px;" text="Словарь" textFill="#45a29e">
+               <VBox.margin>
+                  <Insets left="3.0" right="3.0" top="5.0" />
+               </VBox.margin>
+               <padding>
+                  <Insets left="3.0" />
+               </padding>
+            </Button>
+            <AnchorPane prefHeight="8.0" prefWidth="135.0">
+               <VBox.margin>
+                  <Insets left="3.0" top="5.0" />
+               </VBox.margin>
+               <padding>
+                  <Insets left="3.0" />
+               </padding>
+            </AnchorPane>
+            <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="135.0" style="-fx-background-color: #0B0C10; -fx-border-color: #45a29e; -fx-border-radius: 11px;" text="Темы" textFill="#45a29e">
+               <VBox.margin>
+                  <Insets left="3.0" right="3.0" top="5.0" />
+               </VBox.margin>
+               <padding>
+                  <Insets left="3.0" />
+               </padding>
+            </Button>
+            <AnchorPane prefHeight="8.0" prefWidth="135.0">
+               <VBox.margin>
+                  <Insets left="3.0" top="5.0" />
+               </VBox.margin>
+               <padding>
+                  <Insets left="3.0" />
+               </padding>
+            </AnchorPane>
+            <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="135.0" style="-fx-background-color: #0B0C10; -fx-border-color: #45a29e; -fx-border-radius: 11px;" text="Настройки" textFill="#45a29e">
+               <VBox.margin>
+                  <Insets left="3.0" right="3.0" top="5.0" />
+               </VBox.margin>
+               <padding>
+                  <Insets left="3.0" />
+               </padding>
+            </Button>
+         </children>
+      </VBox>
+   </left>
+</BorderPane>
